@@ -5,20 +5,20 @@
 -> By the end of these steps, the site lived in my custom domain - powered by AWS and NGINX 
 
 
-### Step 1 - By the domain on Cloudflare 
+### Step 1 - Buy the domain on Cloudflare 
 1. Go to https://www.cloudflare.com
 2. Search the domain name you would like e.g. farhanatasneem.co.uk and purchase it
 3. After the purchase is done, Cloudflare automatically manages DNS, which helps in later steps 
 
 ### Step 2 - Launch an EC2 instance on AWS 
 
-1. Seach EC2 in the search bar and click on Launch Instance 
+1. Search EC2 in the search bar and click on Launch Instance 
 
 Settings:
 - Name: nginx-server
 - AMI: Amazon Linux 2023 
 - Instance type: t3.micro 
-- Key pair: assuming you haven't got a existing key create a new one and keep it safe. If you fo just click that .pem key 
+- Key pair: assuming you haven't got a existing key create a new one and keep it safe. If you do just click that .pem key 
 
 Security group settings:
 1. SSH (Port 22) - Source: 0.0.0.0/0
@@ -80,6 +80,8 @@ You can edit the page:
 - Save it and test 
 - sudo systemctl reload nginx 
 - Reload and test and the custom page should be visible 
+
+![Webpage](Images/webpage.png)
 
 
 
