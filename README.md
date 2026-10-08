@@ -4,7 +4,6 @@
 
 -> By the end of these steps, the site lived in my custom domain - powered by AWS and NGINX 
 
--> I will also addressed the issues I faced along the way and how I had solved them 
 
 ### Step 1 - By the domain on Cloudflare 
 1. Go to https://www.cloudflare.com
@@ -82,7 +81,7 @@ You can edit the page:
 - sudo systemctl reload nginx 
 - Reload and test and the custom page should be visible 
 
-![webpage](Images/webpage.png)
+
 
 
 
